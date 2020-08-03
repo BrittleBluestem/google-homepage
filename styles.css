@@ -4,8 +4,15 @@ body{
     background: #fff;
     color: #222;
     font-family: arial,sans-serif;
+    margin:0;
 }
+img{
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    text-align: center;
 
+}
 
 svg{
     display: block;
@@ -66,6 +73,17 @@ a{
     border-radius: 4px;
 
 }
+.button:hover{
+    color: black;
+    border: .5px solid #666;
+
+}
+.nav{
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    color: #000;
+}
 #svg-container{
     display: flex;
     align-items: center;
@@ -116,4 +134,41 @@ a{
 #center{
     display:block;
     text-align: center;
+}
+#topleft{
+    margin: -33px 0 0 10px;
+}
+#topright{
+    top: 0;
+    right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    text-align: right;
+    align-items: center;
+    margin: 7px 0 0 10px;
+}
+#apps{
+    background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-position: -132px -38px;
+    opacity: .55;
+    background-size: 528px 68px;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    padding-left: 30px;
+}
+#logodiv{
+    display: block;
+    text-align: center;
+    height:233px;
+    margin-top: 47px;
+
 }
