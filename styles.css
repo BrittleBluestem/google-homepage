@@ -1,0 +1,118 @@
+body{
+    font-size: small;
+    text-align: -webkit-center;
+    background: #fff;
+    color: #222;
+    font-family: arial,sans-serif;
+}
+
+
+svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #9AA0A6;
+    fill: currentColor;
+    line-height: 24px;
+}
+footer{
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    font-size: 14px;
+    display: block;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    margin-left: -27px;
+    padding-left: 20px;
+    text-align: left;
+}
+a{
+    display: inline-block;
+    color: #5f6368;
+    text-decoration: none;
+    white-space: no-wrap;
+    padding: 0 0 0 27px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    margin: 0 !important;
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.button{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    font-family: arial,sa;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+
+}
+#svg-container{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+#svg-padding{
+    margin: auto;
+    display: block;
+    height: 26px;
+    width: 20px;
+}
+#search{
+    width: 582px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+#padding{
+    flex: 1; 
+    display: flex;
+    padding: 5px 8px 0 16px;
+}
+#textbox{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+#buttons{
+    padding-top: 18px;
+    display: block;
+}
+#center{
+    display:block;
+    text-align: center;
+}
